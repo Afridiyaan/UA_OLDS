@@ -433,7 +433,7 @@ class Main:
 			self.old()
 		if VEERO in ["5", "05"]:
 			self.old2()
-			if VEERO in ["6", "06"]:
+                if VEERO in ["6", "06"]:
 			self.old3()
 			exit()
 		else:
@@ -444,10 +444,10 @@ class Main:
 	def old(self):
 		  x = 111111111
 		xx = 999999999
-	   xxx= 555555555
-	 xxxx = 444444444
+	       xxx= 555555555
+	      xxxx = 444444444
 		idx = "100000"
-        idx = "1000000" 
+                idx = "1000000" 
 		os.system('clear');print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
