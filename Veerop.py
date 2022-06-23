@@ -433,8 +433,7 @@ class Main:
 			self.old()
 		if VEERO in ["5", "05"]:
 			self.old2()
-                if VEERO in ["6", "06"]:
-			self.old3()
+
 			exit()
 		else:
 			print (" Select Correctly ")
